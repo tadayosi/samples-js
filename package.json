@@ -1,5 +1,5 @@
 {
-  "name": "samples-js",
+  "name": "@tadayosi/samples-js",
   "version": "1.0.0",
   "description": "JavaScript samples",
   "author": "Tadayoshi Sato",
@@ -7,11 +7,13 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
+    "types": "tsc",
     "format": "prettier . --write"
   },
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }

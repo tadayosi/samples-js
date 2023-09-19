@@ -6,10 +6,6 @@
     "outDir": "dist",
     "declarationMap": true
   },
-  "include": [
-    "src/types/*"
-  ],
-  "exclude": [
-    "src/**/*.test.*"
-  ]
+  "include": ["src/types/*"],
+  "exclude": ["src/**/*.test.*"]
 }

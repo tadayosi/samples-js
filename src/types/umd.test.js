@@ -1,6 +1,6 @@
-const Greeting = require('./es5-class')
+const Greeting = require('./umd')
 
-describe('greeting', () => {
+describe('umd', () => {
   test('new greeting', () => {
     const g = new Greeting('Test')
     expect(g.name).toEqual('Test')

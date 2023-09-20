@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "rm -rf dist/",
     "test": "jest",
-    "types": "tsc",
+    "types": "rm -rf temp/ && node scripts/preprocess-iife.mjs && tsc",
     "format": "prettier . --write"
   },
   "devDependencies": {

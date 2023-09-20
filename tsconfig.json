@@ -4,8 +4,7 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "dist",
-    "declarationMap": true
+    "declarationMap": false
   },
-  "include": ["src/types/*"],
-  "exclude": ["src/**/*.test.*"]
+  "include": ["temp/*"]
 }
